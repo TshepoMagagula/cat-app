@@ -14,23 +14,35 @@ h1{
 h2{
     background-color: black;
     text-align: center;
-    border: 3px solid #ff006e;
+    border: 3px solid white;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    background-color: black;
+    padding-left: 1em;
+    padding-bottom: 0.1em;
+    border: 1px solid white;
 }
 
 @media (min-width: 960px) {
     .cats {
-        display: flex;
+        display: flex;      
     }
+}
+
+.cats {
+    flex: 1;
 }
 
 .photos {
     background-color: #8338ec;
     padding: 1em;
-    margin: 0.5em;
+    margin: 1em;
     border-radius: 1em;
     border: solid #ff006e;
 }
+
 
 .love {
     background-color: #ff006e;
@@ -46,7 +58,6 @@ h2{
     margin: 1em;
     border-radius: 1em;
     border: solid #3a86ff;
-
 }
 
 .form {
@@ -60,4 +71,3 @@ h2{
 fieldset {
     margin: 1em;
 }
-
